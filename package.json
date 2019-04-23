@@ -1,0 +1,53 @@
+{
+  "name": "ie8-cli",
+  "version": "1.0.0",
+  "description": "ie8 development tool",
+  "bin": {
+    "ie8": "bin/ie8.js"
+  },
+  "keywords": [
+    "ie8",
+    "cli",
+    "typescript",
+    "es",
+    "webpack4",
+    "san",
+    "sanjs",
+    "anujs",
+    "react"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "author": "cxphoe",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "ejs": "^2.6.1",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1",
+    "javascript-stringify": "^1.6.0",
+    "ora": "^3.0.0",
+    "semver": "^5.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cxphoe/ie8-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cxphoe/ie8-cli/issues"
+  },
+  "homepage": "https://github.com/cxphoe/ie8-cli#readme"
+}

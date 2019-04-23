@@ -1,0 +1,67 @@
+{
+  "extends": "tslint:latest",
+  "defaultSeverity": "warn",
+  "rules": {
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [
+      true,
+      [
+        "@common",
+        "@components",
+        "@utils",
+        "@",
+        "react",
+        "react-dom"
+      ]
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single"
+    ],
+    "no-console": [
+      true,
+      "dir",
+      "log",
+      "error",
+      "warn"
+    ],
+    "space-before-function-paren": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "adjacent-overload-signatures": true,
+    "member-access": [
+      false
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "max-classes-per-file": [
+      true,
+      10
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ],
+    "align": [
+      true,
+      "statements"
+    ],
+    "ordered-imports": false
+  }
+}

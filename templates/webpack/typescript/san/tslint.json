@@ -1,0 +1,66 @@
+{
+  "extends": "tslint:latest",
+  "defaultSeverity": "warn",
+  "rules": {
+    // 不允许末尾分号
+    "semicolon": [
+      true,
+      "never"
+    ],
+    // 允许子模块 import
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [
+      true,
+      [
+        "@common",
+        "@components",
+        "@utils",
+        "@"
+      ]
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single"
+    ],
+    "no-console": [
+      true,
+      "dir",
+      "log",
+      "error",
+      "warn"
+    ],
+    "space-before-function-paren": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "adjacent-overload-signatures": true,
+    "member-access": [
+      false
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "max-classes-per-file": [
+      true,
+      10
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ],
+    "align": [
+      true,
+      "statements"
+    ]
+  }
+}

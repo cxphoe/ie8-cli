@@ -1,0 +1,43 @@
+{
+  "extends": "eslint-config-egg",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "arrowFunctions": true,
+      "classes": true,
+      "modules": true,
+      "defaultParams": true
+    },
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "strict": "off",
+    "valid-jsdoc": "off",
+    "space-before-function-paren": "off",
+    "no-multi-spaces": "off",
+    "no-alert": "off",
+    "indent": [
+      "warn",
+      2
+    ],
+    "array-bracket-spacing": [
+      "warn",
+      "never"
+    ],
+    "arrow-parens": [
+      "warn",
+      "always"
+    ],
+    "sort-imports": "off",
+    "no-unused-vars": "off"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "jsx": "preserve",
+    "strict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "charset": "utf8",
+    "allowJs": false,
+    "pretty": true,
+    // "noEmitOnError": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "react": [
+        "node_modules/anujs/dist/ReactIE.js",
+      ],
+      "react-dom": [
+        "node_modules/anujs/dist/ReactIE.js",
+      ],
+      "prop-types": [
+        "node_modules/anujs/lib/ReactPropTypes",
+      ],
+      "devtools": [
+        "node_modules/anujs/lib/devtools",
+      ],
+      "create-react-class": [
+        "node_modules/anujs/lib/createClass",
+      ],
+    }
+  },
+  "exclude": [
+    "build",
+    "node_modules/*"
+  ]
+}
