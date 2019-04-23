@@ -38,7 +38,7 @@ The alternatives of option `type` are as below:
 
 | value | description |
 | -- | -- |
-| es | using es6 |
+| es | using es6 (default setting) |
 | san | using san (https://github.com/baidu/san) |
 | anujs | using anujs (https://github.com/RubyLouvre/anu) |
 
