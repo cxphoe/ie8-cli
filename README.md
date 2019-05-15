@@ -2,6 +2,22 @@
 
 > IE8 CLI is a Tooling for project Development With IE8 Compability.
 
+It is 2019. The users using IE8 is not that much now. Developling this tool seems not a smart move. But, I need to support ie8 (at work). I need a tool to maintain what I have figured out during development. So, this is the reason why it comes out.
+
+IE8 will be completely abandoned someday. And this tool will be totally useless at that time. But, I hope it helps before that time.
+
+This tool is for creating projects with ie8 compability by using preset boilerplates. It integrates several tools:
+
+- [sanjs](https://github.com/baidu/san) (a framework kindof like vue)
+- [anujs](https://github.com/RubyLouvre/anu) (A mini React-like framework that is extremely compatible with React16)
+- typescript
+- webpack4
+
+I spent a lot of time figuring out how to use latest webpack tools in ie8 development. With this tool, you can develop with webpack 4.x, which means that **all proposals is usable only if you set up corresponding babel plugins**.
+
+note: there still are some several unsupport features:
+- `getter` / `setter`: the `defineProperty` is wierd in ie8. Please keep in mind that in ie8 `defineProperty` can only be used with dom instances during development.
+
 ## Getting Started
 
 ### install:
